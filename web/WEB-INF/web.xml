@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <!-- 게시판 전체 리스트 -->
+    <servlet>
+        <servlet-name>boardListServlet</servlet-name>
+        <servlet-class>myboard.controller.BoardListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>boardListServlet</servlet-name>
+        <url-pattern>/board/list</url-pattern>
+    </servlet-mapping>
+
+    <!-- 게시판 상세보기 -->
+    <servlet>
+        <servlet-name>boardViewServlet</servlet-name>
+        <servlet-class>myboard.controller.BoardViewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>boardViewServlet</servlet-name>
+        <url-pattern>/board/view</url-pattern>
+    </servlet-mapping>
+
+    <!-- 게시판 작성하기 -->
+    <servlet>
+        <servlet-name>boardCreateFormServlet</servlet-name>
+        <servlet-class>myboard.controller.BoardCreateFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>boardCreateFormServlet</servlet-name>
+        <url-pattern>/board/createForm</url-pattern>
+    </servlet-mapping>
+
+    <!-- 게시판 추가 -->
+    <servlet>
+        <servlet-name>boardCreateServlet</servlet-name>
+        <servlet-class>myboard.controller.BoardCreateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>boardCreateServlet</servlet-name>
+        <url-pattern>/board/create</url-pattern>
+    </servlet-mapping>
+
+    <!-- 게시판 수정하기 -->
+    <servlet>
+        <servlet-name>boardModifyFormServlet</servlet-name>
+        <servlet-class>myboard.controller.BoardModifyFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>boardModifyFormServlet</servlet-name>
+        <url-pattern>/board/modifyForm</url-pattern>
+    </servlet-mapping>
+
+    <!-- 게시판 수정 -->
+    <servlet>
+        <servlet-name>boardModifyServlet</servlet-name>
+        <servlet-class>myboard.controller.BoardModifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>boardModifyServlet</servlet-name>
+        <url-pattern>/board/modify</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>boardDeleteServlet</servlet-name>
+        <servlet-class>myboard.controller.BoardDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>boardDeleteServlet</servlet-name>
+        <url-pattern>/board/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>helloServlet</servlet-name>
+        <servlet-class>hello.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>helloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+</web-app>
