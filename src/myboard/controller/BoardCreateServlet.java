@@ -25,7 +25,7 @@ public class BoardCreateServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
+        request.setCharacterEncoding("utf-8");
         Board board = new Board();
         board.setWriter(request.getParameter("writer"));
         board.setPw(request.getParameter("password"));

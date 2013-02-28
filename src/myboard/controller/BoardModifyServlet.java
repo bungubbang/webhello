@@ -23,7 +23,7 @@ public class BoardModifyServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
+        request.setCharacterEncoding("utf-8");
         Board board = new Board();
         board.setId(Integer.parseInt(request.getParameter("id")));
         board.setWriter(request.getParameter("writer"));
