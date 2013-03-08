@@ -23,7 +23,6 @@ public class BoardDeleteServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
         int boardId = Integer.parseInt(request.getParameter("id"));
 
         boardRepository.deleteBoard(boardId);

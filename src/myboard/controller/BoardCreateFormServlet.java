@@ -17,6 +17,11 @@ import java.io.IOException;
 public class BoardCreateFormServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        if(!BoardLoginServlet.checkLogin(request,response)) {
+            return;
+        }
+
         RequestDispatcher view = request.getRequestDispatcher("/board/boardCreate.jsp");
         view.forward(request, response);
     }

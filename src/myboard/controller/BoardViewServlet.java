@@ -25,6 +25,10 @@ public class BoardViewServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        if(!BoardLoginServlet.checkLogin(request,response)) {
+            return;
+        }
+
         int boardId = Integer.parseInt(request.getParameter("id"));
 
         request.setAttribute("board", boardRepository.FindById(boardId));
