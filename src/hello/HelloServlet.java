@@ -29,7 +29,7 @@ public class HelloServlet extends HttpServlet{
         request.setAttribute("result", result);
         request.setAttribute("calculate", calculate);
 
-        RequestDispatcher view = request.getRequestDispatcher("boardList.jsp");
+        RequestDispatcher view = request.getRequestDispatcher("/hello.jsp");
         view.forward(request, response);
 
     }
