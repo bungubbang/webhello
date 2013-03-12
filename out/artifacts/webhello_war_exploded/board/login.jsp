@@ -1,11 +1,5 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: bungubbang
-  Date: 13. 3. 7.
-  Time: 오후 7:47
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>Login</title>
@@ -18,11 +12,12 @@
     <div class="control-group">
         <label class="control-label" for="inputId">ID</label>
         <div class="controls">
-            <% if(request.getAttribute("id") != null) { %>
-            <input type="text" id="inputId" placeholder="bungubbang" value="<%= request.getAttribute("id") %>" name="id">
-            <% } else { %>
+            <c:if test="${id != null}">
+            <input type="text" id="inputId" placeholder="bungubbang" value="${id}" name="id">
+            </c:if>
+            <c:if test="${id == null}">
             <input type="text" id="inputId" placeholder="bungubbang" name="id">
-            <% } %>
+            </c:if>
         </div>
     </div>
     <div class="control-group">
@@ -40,5 +35,6 @@
         </div>
     </div>
 </form>
+<jsp:include page="boardfooter.jsp"></jsp:include>
 </body>
 </html>
