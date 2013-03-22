@@ -6,6 +6,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="webhello" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="postgresql-9.2-1002.jdbc4" />
+        </element>
       </element>
       <element id="javaee-facet-resources" facet="webhello/web/Web" />
     </root>

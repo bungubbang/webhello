@@ -1,6 +1,7 @@
 package myboard.controller;
 
 import myboard.entity.User;
+import myboard.repository.UserDBRepository;
 import myboard.repository.UserMemoryRepository;
 import myboard.repository.UserRepository;
 
@@ -22,7 +23,7 @@ import java.io.IOException;
  */
 public class BoardLoginServlet extends HttpServlet{
 
-    UserRepository userRepository = UserMemoryRepository.getInstance();
+    UserRepository userRepository = UserDBRepository.getInstance();
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
