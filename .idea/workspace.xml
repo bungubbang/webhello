@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ec3300-c9fd-496c-9610-c25232aaf6fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/myboard/repository/BoardDBRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/myboard/repository/UserDBRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myboard/controller/BoardCreateServlet.java" afterPath="$PROJECT_DIR$/src/myboard/controller/BoardCreateServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myboard/controller/BoardDeleteServlet.java" afterPath="$PROJECT_DIR$/src/myboard/controller/BoardDeleteServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myboard/controller/BoardListServlet.java" afterPath="$PROJECT_DIR$/src/myboard/controller/BoardListServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myboard/controller/BoardLoginServlet.java" afterPath="$PROJECT_DIR$/src/myboard/controller/BoardLoginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myboard/controller/BoardModifyFormServlet.java" afterPath="$PROJECT_DIR$/src/myboard/controller/BoardModifyFormServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myboard/controller/BoardModifyServlet.java" afterPath="$PROJECT_DIR$/src/myboard/controller/BoardModifyServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myboard/controller/BoardViewServlet.java" afterPath="$PROJECT_DIR$/src/myboard/controller/BoardViewServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webhello.iml" afterPath="$PROJECT_DIR$/webhello.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/webhello_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webhello_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="webhello.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -140,6 +127,7 @@
     <file path="/BoardDBRepository.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1363943435138" ignored="false" />
     <file path="/DBtest.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1363940282879" ignored="false" />
     <file path="/UserDBRepository.java" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1363943219381" ignored="false" />
+    <file path="/README.md" changelist="54ec3300-c9fd-496c-9610-c25232aaf6fc" time="1363943618414" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,13 +213,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDBRepository.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserDBRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/myboard/repository/UserDBRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="12" selection-start="600" selection-end="639" vertical-scroll-proportion="0.4232902">
+            <state line="26" column="12" selection-start="600" selection-end="639" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.19408503">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -292,7 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/board/error.jsp" />
         <option value="$PROJECT_DIR$/src/hello/HelloServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/myboard/wrapper/requestWrapper.java" />
@@ -308,6 +304,7 @@
         <option value="$PROJECT_DIR$/src/myboard/controller/BoardLoginServlet.java" />
         <option value="$PROJECT_DIR$/src/myboard/repository/UserDBRepository.java" />
         <option value="$PROJECT_DIR$/src/myboard/repository/BoardDBRepository.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1027,7 +1024,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="970" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1049,7 +1046,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21344717" sideWeight="0.6694118" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21344717" sideWeight="0.6694118" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33058822" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1118,15 +1115,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/myboard/repository/BoardMemoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="277" selection-end="499" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#401#408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/myboard/controller/BoardListServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="53" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
@@ -1229,10 +1217,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/myboard/repository/UserDBRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="600" selection-end="639" vertical-scroll-proportion="0.4232902">
+        <state line="26" column="12" selection-start="600" selection-end="639" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="179" selection-end="179" vertical-scroll-proportion="0.19408503">
+          <folding />
         </state>
       </provider>
     </entry>
