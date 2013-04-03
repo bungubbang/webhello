@@ -6,3 +6,4 @@ webhello
 * JSP 숙제3 : JSTL +EL & include jsp (완료)
 * JSP 숙제4 : Filter & wrapper (완료)
 * JSP 숙제5 : Postgre 연동 (JDBC) (완료)
+* JSP 숙제6 : shop 만들기 (버그 수정중)
