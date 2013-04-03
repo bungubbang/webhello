@@ -22,8 +22,6 @@ public class EncodeFilter implements Filter {
         HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;
         HttpServletResponse httpServletResponse = (HttpServletResponse) servletResponse;
         httpServletRequest.setCharacterEncoding("utf-8");
-        System.out.println("httpServletRequest = " + httpServletRequest.getRequestURI());
-        System.out.println("httpServletRequest = " + httpServletRequest.getRemoteAddr());
 
         RequestWrapper requestWrapper = new RequestWrapper(httpServletRequest);
 

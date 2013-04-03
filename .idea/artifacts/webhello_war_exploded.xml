@@ -8,6 +8,8 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="postgresql-9.2-1002.jdbc4" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="junit-4.7" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="webhello/web/Web" />

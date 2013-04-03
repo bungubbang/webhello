@@ -112,7 +112,109 @@
     </filter>
     <filter-mapping>
         <filter-name>requestFilter</filter-name>
-        <url-pattern>/board/*</url-pattern>
+        <url-pattern>/*</url-pattern>
     </filter-mapping>
+
+
+    <!-- Shop -->
+    <servlet>
+        <servlet-name>shopCreateServlet</servlet-name>
+        <servlet-class>shop.controller.ShopCreateProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopCreateServlet</servlet-name>
+        <url-pattern>/shop/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopDeleteServlet</servlet-name>
+        <servlet-class>shop.controller.ShopDeleteProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopDeleteServlet</servlet-name>
+        <url-pattern>/shop/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopListServlet</servlet-name>
+        <servlet-class>shop.controller.ShopListProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopListServlet</servlet-name>
+        <url-pattern>/shop/list</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopModifyServlet</servlet-name>
+        <servlet-class>shop.controller.ShopModifyProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopModifyServlet</servlet-name>
+        <url-pattern>/shop/modify</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopViewServlet</servlet-name>
+        <servlet-class>shop.controller.ShopViewProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopViewServlet</servlet-name>
+        <url-pattern>/shop/view</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopUserJoinServlet</servlet-name>
+        <servlet-class>shop.controller.ShopCreateMemberServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopUserJoinServlet</servlet-name>
+        <url-pattern>/shop/join</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopUserLoginServlet</servlet-name>
+        <servlet-class>shop.controller.ShopLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopUserLoginServlet</servlet-name>
+        <url-pattern>/shop/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopOrderServlet</servlet-name>
+        <servlet-class>shop.controller.ShopOderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopOrderServlet</servlet-name>
+        <url-pattern>/shop/order</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopUpdateOrderServlet</servlet-name>
+        <servlet-class>shop.controller.ShopUpdateOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopUpdateOrderServlet</servlet-name>
+        <url-pattern>/shop/order/update</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopAdminServlet</servlet-name>
+        <servlet-class>shop.controller.ShopAdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopAdminServlet</servlet-name>
+        <url-pattern>/shop/admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>shopAdminListServlet</servlet-name>
+        <servlet-class>shop.controller.ShopAdminListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shopAdminListServlet</servlet-name>
+        <url-pattern>/shop/adminlist</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>
